@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    color: green; /* Thiết lập màu chữ thành trắng để dễ đọc hơn */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*height: 100vh;  Đảm bảo chiếm đầy đủ chiều cao của viewport */
+    margin: 0;
+}
+
+#christmasTree {
+    font-family: monospace;
+    white-space: pre-wrap;
+    font-size: 20px; /* Điều chỉnh kích thước font theo nhu cầu */
+}
