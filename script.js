@@ -21,7 +21,7 @@ function caythong(h) {
     const color = mau[Math.floor(Math.random() * mau.length)];
     treeOutput += `<span style="color:${color}">${' '.repeat(8)}Merry Christmas!</span>\n`;
     treeOutput += `<span style="color:${color}">${' '.repeat(14)}2023\n</span>`;
-    treeOutput += `<span style="color:${color}">${' '.repeat(6)}❤️ Hoàng Thị Thu ❤️</span>`;
+    treeOutput += `<span style="color:${color}">${' '.repeat(6)}❤️ Nguyễn Thị Hương Mai ❤️</span>`;
 
     document.getElementById('christmasTree').innerHTML = treeOutput;
 }
