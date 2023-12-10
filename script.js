@@ -7,9 +7,9 @@ function caythong(h) {
         for (let j = 0; j < 2 * i + 1; j++) {
             if (Math.random() < 0.1) {
                 const color = mau[Math.floor(Math.random() * mau.length)];
-                treeOutput += `<span style="color:${color}">*</span>`;
+                treeOutput += `<span style="color:${color}">^</span>`;
             } else {
-                treeOutput += '<span style="color:#00cc00">*</span>';
+                treeOutput += '<span style="color:#00cc00">^</span>';
             }
         }
         treeOutput += '\n';
